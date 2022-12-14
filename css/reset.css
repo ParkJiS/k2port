@@ -1,0 +1,14 @@
+/* CSS Reset */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
+
+body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul, header, nav, section { margin:0; padding:0; font-family: 'Pretendard'; box-sizing: border-box;}
+body,button,input,select,table,textarea { font-size:17px; font-family: 'Pretendard';}
+button,input { border-radius:0; border: none; background-color: transparent; cursor: pointer;}
+fieldset,img { border:0 }
+ol,ul { list-style:none }
+address,em { font-style:normal }
+a { text-decoration:none }
+iframe { overflow:hidden; margin:0; padding:0; border:0 }
